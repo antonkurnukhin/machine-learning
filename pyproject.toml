@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "machine-leaarning"
+version = "0.1.0"
+description = ""
+authors = ["antonkurnukhin <anton.kurnuhin@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.3"
+scikit-learn = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
